@@ -33,7 +33,6 @@ public class SelectTangerine {
 		List<Integer> keySet = new ArrayList<>(map.keySet());
 		keySet.sort((size1, size2) -> map.get(size2) - map.get(size1));
 		
-		//keySet.sort(Comparator.reverseOrder());
 		
 		for (int i = 0; i < keySet.size(); i++) {
 			System.out.print(keySet.get(i) + ",");
